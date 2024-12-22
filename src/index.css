@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #2563eb;
+  --primary-dark: #1d4ed8;
+  --secondary: #64748b;
+  --accent: #f59e0b;
+  --background: #f8fafc;
+  --foreground: #0f172a;
+}
+
+.dark {
+  --primary: #3b82f6;
+  --primary-dark: #2563eb;
+  --secondary: #94a3b8;
+  --accent: #fbbf24;
+  --background: #0f172a;
+  --foreground: #f8fafc;
+}
+
+body {
+  @apply bg-background text-foreground;
+}
